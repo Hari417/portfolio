@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
     background-color: #000000;
     display:flex;
     justify-content: space-between;
-    align-items: 100px;
+    
 }
 
 
@@ -34,23 +34,36 @@ body {
     color:rgb(235, 234, 236);
     text-decoration: none;
     font-weight: 600;
-    
     right: -10%;
 
 }
-
+nav {
+    align-items:baseline;
+    justify-content: space-between;
+}
 .navbar a{
     font-size: 20px;
     color: rgb(226, 226, 233);
     text-decoration:none;
     font-weight: 500;
-    margin-left: 35px;
+    padding: 5px;
+    text-align: center;
+
+}
+.navbar span{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(226, 226, 233);
+    text-decoration:none;
+    font-weight: 500;
+    background-color: rgb(16, 15, 15);
+    border-radius: 10%;
     transition: 0.3s;
 }
 
-.navbar a:hover,
-.navbar a.active {
-    color: rgb(10, 191, 247);
+.navbar span:hover,
+.navbar span.active {
+    background-color: rgb(10, 191, 247);
 }
 
 .topclass1{
@@ -176,7 +189,7 @@ margin: 20px 0 40px;
 .about h2 {
     font-family: 'Playfair Display', serif;
     top: -2px;
-    font-weight: 1200;
+    font-weight: 500;
     padding-left: 7%;
     padding-right: 7%;
     font-size: 35px;
@@ -229,7 +242,7 @@ margin: 20px 0 40px;
 .skills li {
     font-family: 'Playfair Display', serif;
     top: -2px;
-    font-weight: 1200;
+    font-weight: 500;
     padding-left: 10%;
     padding-right: 7%;
     font-size: 35px;
